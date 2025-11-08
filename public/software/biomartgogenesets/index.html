@@ -418,7 +418,6 @@
 }
 </style>
 <script>
-var url = "http:\/\/localhost:4321\/lab-en\/";
 window.root_dir = "http:\/\/localhost:4321\/lab-en\/";
 const regex = /^https?:\/\/[^/]+?\//;
 root_dir = root_dir.replace(regex, "/");
@@ -436,9 +435,10 @@ $( function() {
   $("#nav-logo-text").attr("href", root_dir);
   $("#no-found-a").attr("href", root_dir);
 
+  var url = window.location.href;
   var pattern = /lab-en/;
   var url2 = url.replace(pattern, "lab-cn");
-  $("#nav ul li:last-child").attr("src", url2);
+  $("#nav ul li:last-child a").attr("href", url2);
 })
 </script>
   <body>
