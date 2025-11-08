@@ -5,22 +5,22 @@ title: BioCartaImage
 
 
 
-BioCarta的生物途径通路图。
+Pathway images from BioCarta.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/BioCartaImage/
 GitHub | https://github.com/jokergoo/BioCartaImage
-文档 | https://jokergoo.github.io/BioCartaImage/
+Documentation | https://jokergoo.github.io/BioCartaImage/
 
 </div>
 
-### 例子
+### Example
 
 
 ``` r
@@ -30,7 +30,7 @@ grid.newpage()
 grid.biocarta("h_RELAPathway")
 ```
 
-<img src="/software/BioCartaImage_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/BioCartaImage_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 
 

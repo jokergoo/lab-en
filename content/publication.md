@@ -1,12 +1,12 @@
 ---
-title: "论文"
+title: "Publication"
 ---
 
 
 
 
 
-更新于2025-11-07，论文列表按研究方向和时间排序。#通讯作者，*共同第一作者。
+Updated on 2025-11-08. Papers are sorted by research directions and publication dates.  #corresponding author, \*co-first author。
 
 <style>
 ul {
@@ -19,7 +19,7 @@ li {
 }
 </style>
 
-### 生物软件
+### Bioinformatics Software
 
 - **Zuguang Gu#**, [simona: a comprehensive R package for semantic similarity analysis on bio-ontologies](https://doi.org/10.1186/s12864-024-10759-4). _BMC genomics_ 2024.
 - Noriaki Sato, Yao-Zhong Zhang, **Zuguang Gu**, Seiya Imoto, [biotextgraph: graphical summarization of functional similarities from textual information](https://doi.org/10.1093/bioinformatics/btae357). _Bioinformatics_ 2024.
@@ -42,21 +42,22 @@ li {
 https://doi.org/10.1186/1471-2164-12-335). _BMC Genomics_ 2011.
 
 
-### 计算几何
+### Computational Geometry
 
 - **Zuguang Gu#**, [Construction, Transformation and Structures of 2x2 Space-Filling Curves](https://doi.org/10.48550/arXiv.2412.16962). _arXiv_ 2024.
 
-### 软件工程
+### Software Engineering
 
 - **Zuguang Gu#**, [On the dependency heaviness of CRAN/Bioconductor ecosystem](https://doi.org/10.1016/j.jss.2023.111610). _Journal of Systems and Software_ 2023.
 - **Zuguang Gu#**, Daniel Hübschmann, [Pkgndep: a tool for analyzing dependency heaviness of R packages](https://doi.org/10.1093/bioinformatics/btac449). _Bioinformatics_ 2022.
 
-### 科学计量学
+### Bibliometrics
 
 - **Zuguang Gu#**, [Two separated worlds: On the preference of influence in life science and biomedical research](https://doi.org/10.1016/j.joi.2025.101641). _Journal of Informetrics_ 2025.
 
 
-### 组学与精准医学
+### Omics and Precision Medicine
+
 - Xiaoping Zou, Shuang Nie, Jing Cao, Mengyue Shi, Kathleen Schuck, Zhao Shi, Lingling Zhang, Hongzhen Li, Yifeng Sun, Chao Fang, Jingxiong Hu, Yiqi Niu, Yuanyuan Yu, Zhiheng Zhang, Chao Li, Mingyue Hu, Lei Wang, Kuirong Jiang, Zipeng Lu, Jan Akkan, Susanne Raulefs, Christoph Kahlert, Susanne Roth, Ingrid Herr, Yuan Wan, Andre Mihaljevic, Xuetian Qian, Qi Zhang, Maggie Haitian Wang, Jörg Kleeff, Helmut Friess, **Zuguang Gu**, Christoph W Michalski, Shanshan Shen, Bo Kong, [ALDH1A3 promotes aggressive basal-like pancreatic cancer through an AP-1/RUNX2 enhancer network](https://doi.org/10.1038/s41388-025-03530-w). _Oncogene_ 2025.
 - Dominik Vonficht, Lea Jopp-Saile, Schayan Yousefian, Viktoria Flore, Inés Simó Vesperinas, Ruth Teuber, Bogdan Avanesyan, Yanjiang Luo, Caroline Röthemeier, Florian Grünschläger, Mirian Fernandez-Vaquero, Vincent Fregona, Diana Ordoñez-Rueda, Laura K Schmalbrock, Luca Deininger, Angelo Jovin Yamachui Sitcheu, **Zuguang Gu**, Maja C Funk, Ralf Mikut, Mathias Heikenwälder, Angelika Eggert, Arend von Stackelberg, Sebastian Kobold, Jan Krönke, Ulrich Keller, Andreas Trumpp, Ahmed N Hegazy, Cornelia Eckert, Daniel Hübschmann, Simon Haas, [Ultra-high-scale cytometry-based cellular interaction mapping](https://doi.org/10.1038/s41592-025-02744-w). _Nature Methods_ 2025.
 - Stephanie Gehrs\*, **Zuguang Gu\***, Joschka Hey, Dieter Weichenhan, Niklas Buckwalter, Moritz Jakab, Agnes Hotz-Wagenblatt, Kersten Breuer, Maria Llamazares Prada, Daniel Hübschmann, Katharina Schlereth, Christoph Plass, Hellmut Augustin, [DNMT3A-dependent DNA methylation shapes the endothelial enhancer landscape](https://doi.org/10.1093/nar/gkaf435). _Nucleic Acids Research_ 2025.
@@ -86,7 +87,7 @@ https://doi.org/10.1186/1471-2164-12-335). _BMC Genomics_ 2011.
 - Jenny Wegert, Naveed Ishaque, Romina Vardapour, Christina Geörg, **Zuguang Gu**, Matthias Bieg, Barbara Ziegler, Sabrina Bausenwein, Nasenien Nourkami, Nicole Ludwig, Andreas Keller, Clemens Grimm, Susanne Kneitz, Richard D Williams, Tas Chagtai, Kathy Pritchard-Jones, Peter van Sluis, Richard Volckmann, Jan Koster, Rogier Versteeg, Tomas Acha, Maureen J O’Sullivan, Peter K Bode, Felix Niggli, Godelieve A Tytgat, Harm van Tinteren, Marry M van den Heuvel-Eibrink, Eckart Meese, Christian Vokuhl, Ivo Leuschner, Norbert Graf, Roland Eils, Stefan M Pfister, Marcel Kool, Manfred Gessler, [Mutations in the SIX1/2 pathway and the DROSHA/DGCR8 miRNA microprocessor complex underlie high-risk blastemal type Wilms tumors](https://doi.org/10.1016/j.ccell.2015.01.002). _Cancer Cell_ 2015.
 - Lei Gu, Sandra C Frommel, Christopher C Oakes, Ronald Simon, Katharina Grupp, Cristina Y Gerig, Dominik Bär, Mark D Robinson, Constance Baer, Melanie Weiss, **Zuguang Gu**, Matthieu Schapira, Ruprecht Kuner, Holger Sültmann, Maurizio Provenzano, Marie-Laure Yaspo, Benedikt Brors, Jan Korbel, Thorsten Schlomm, Guido Sauter, Roland Eils, Christoph Plass, Raffaella Santoro, [BAZ2A (TIP5) is involved in epigenetic alterations in prostate cancer and its overexpression predicts disease recurrence](https://doi.org/10.1038/ng.3165). _Nature Genetics_ 2015.
 
-### 其他研究
+### Other Topics
 
 - Federico Vita, Cosimo Taiti, Antonio Pompeiano, **Zuguang Gu**, Emilio Lo Presti, Larisa Whitney, Michele Monti, Giuseppe Di Miceli, Dario Giambalvo, Paolo Ruisi, Lorenzo Guglielminetti, Stefano Mancuso, [Aromatic and proteomic analyses corroborate the distinction between Mediterranean landraces and modern varieties of durum wheat](https://doi.org/10.1038/srep34619). _Scientific Reports_ 2016.
 - Chenfeng He, Ying-Xin Li, Guangxin Zhang, **Zuguang Gu**, Rong Yang, Jie Li, Zhi John Lu, Zhi-Hua Zhou, Chenyu Zhang, Jin Wang, [MiRmat: mature microRNA sequence prediction](https://doi.org/10.1371/journal.pone.0051673). _PloS One_ 2012.

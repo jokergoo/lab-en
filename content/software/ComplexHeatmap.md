@@ -5,28 +5,28 @@ title: ComplexHeatmap
 
 
 
-ComplexHeatmap 提供了复杂热图可视化的通用方法。
+ComplexHeatmap provides general solutions of complex heatmap visualizaiton.
 
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/ComplexHeatmap/ 
 GitHub | https://github.com/jokergoo/ComplexHeatmap
-文档 | https://jokergoo.github.io/ComplexHeatmap-reference/book/
-论文 | Zuguang Gu, [Complex heatmap visualization](https://doi.org/10.1002/imt2.43). _iMeta_ 2022. <br>Zuguang Gu, et al., [Complex heatmaps reveal patterns and correlations in multidimensional genomic data](https://doi.org/10.1093/bioinformatics/btw313). _Bioinformatics_ 2016.
+Documentation | https://jokergoo.github.io/ComplexHeatmap-reference/book/
+Publication | Zuguang Gu, [Complex heatmap visualization](https://doi.org/10.1002/imt2.43). _iMeta_ 2022. <br>Zuguang Gu, et al., [Complex heatmaps reveal patterns and correlations in multidimensional genomic data](https://doi.org/10.1093/bioinformatics/btw313). _Bioinformatics_ 2016.
 
 
 
 </div>
 
-### 例子
+### Example
 
-首先简单生成一个随机矩阵。
+First generate a random matrix.
 
 
 ``` r
@@ -48,7 +48,7 @@ rownames(mat) = paste0("row", seq_len(nr))
 colnames(mat) = paste0("column", seq_len(nc))
 ```
 
-直接绘制相应的热图：
+Make the corresponding heatmap.
 
 
 ``` r
@@ -56,10 +56,10 @@ library(ComplexHeatmap)
 Heatmap(mat)
 ```
 
-<img src="/software/ComplexHeatmap_files/figure-html/unnamed-chunk-3-1.png" width="768" />
+<img src="/lab-en/software/ComplexHeatmap_files/figure-html/unnamed-chunk-3-1.png" width="768" />
 
 
-对行和列进行切分：
+Split rows and columns.
 
 
 ``` r
@@ -67,9 +67,9 @@ Heatmap(mat, name = "mat",
     row_split = rep(c("A", "B"), 9), column_split = rep(c("C", "D"), 12))
 ```
 
-<img src="/software/ComplexHeatmap_files/figure-html/unnamed-chunk-4-1.png" width="768" />
+<img src="/lab-en/software/ComplexHeatmap_files/figure-html/unnamed-chunk-4-1.png" width="768" />
 
-加入热图注释：
+Add heatmap annotations.
 
 
 ``` r
@@ -82,10 +82,9 @@ row_ha = rowAnnotation(foo2 = runif(10), bar2 = anno_barplot(runif(10)))
 Heatmap(mat, name = "mat", top_annotation = column_ha, right_annotation = row_ha)
 ```
 
-<img src="/software/ComplexHeatmap_files/figure-html/unnamed-chunk-5-1.png" width="768" />
+<img src="/lab-en/software/ComplexHeatmap_files/figure-html/unnamed-chunk-5-1.png" width="768" />
 
-
-拼接多个热图：
+Add multiple heatmaps.
 
 
 ``` r
@@ -115,7 +114,7 @@ ht3 = Heatmap(le, name = "letters")
 ht1 + ht2 + ht3
 ```
 
-<img src="/software/ComplexHeatmap_files/figure-html/unnamed-chunk-6-1.png" width="768" />
+<img src="/lab-en/software/ComplexHeatmap_files/figure-html/unnamed-chunk-6-1.png" width="768" />
 
 <script>
 $( function() {

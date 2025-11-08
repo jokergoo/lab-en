@@ -5,26 +5,26 @@ title: sfcurve
 
 
 
-`\(n \times n\)` 空间填充曲线
+`\(n \times n\)` space-filling curves.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R, C++
+Language | R, C++
 CRAN | https://cran.r-project.org/package=sfcurve
 GitHub | https://github.com/jokergoo/sfcurve
-文档 | https://jokergoo.github.io/sfcurve/
-论文| Zuguang Gu, [Construction, Transformation and Structures of 2x2 Space-Filling Curves](https://doi.org/10.48550/arXiv.2412.16962). _arXiv_ 2024.
+Documentation | https://jokergoo.github.io/sfcurve/
+Publication | Zuguang Gu, [Construction, Transformation and Structures of 2x2 Space-Filling Curves](https://doi.org/10.48550/arXiv.2412.16962). _arXiv_ 2024.
 
 
 </div>
 
-### 例子
+### Example
 
-2x2曲线
+2x2 curve
 
 
 ``` r
@@ -54,9 +54,9 @@ p
 plot(p)
 ```
 
-<img src="/software/sfcurve_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/sfcurve_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
-3x3 Peano曲线
+3x3 Peano curve
 
 
 ``` r
@@ -64,9 +64,9 @@ p = sfc_3x3_peano("I", "1111")
 plot(p)
 ```
 
-<img src="/software/sfcurve_files/figure-html/unnamed-chunk-3-1.png" width="768" />
+<img src="/lab-en/software/sfcurve_files/figure-html/unnamed-chunk-3-1.png" width="768" />
 
-以一条初级曲线作为起始的曲线
+Initialized by a simple curve
 
 
 ``` r
@@ -75,7 +75,7 @@ p2 = sfc_2x2(p, "1111")
 plot(p2)
 ```
 
-<img src="/software/sfcurve_files/figure-html/unnamed-chunk-4-1.png" width="768" />
+<img src="/lab-en/software/sfcurve_files/figure-html/unnamed-chunk-4-1.png" width="768" />
 
 <script>
 $( function() {

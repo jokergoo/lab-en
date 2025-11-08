@@ -1,6 +1,6 @@
 baseurl: /lab-en/
 languageCode: en-US
-title: Bioinformatics Group in SUAT
+title: Bioinformatics@SUAT
 theme: hugo-black-and-light-theme
 ignoreFiles:
   - \.Rmd$
@@ -22,6 +22,9 @@ menu:
     - name: Software
       url: /software/
       weight: 4
+    - name: Post
+      url: /post
+      weight: 5
     - name: Position
       url: /opening/
       weight: 7

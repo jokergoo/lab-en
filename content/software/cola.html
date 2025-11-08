@@ -353,9 +353,9 @@ display: none;
 </div>
 
 
-<p>一致性聚类（consensus clustering）统一框架。</p>
-<div id="基本信息" class="section level3">
-<h3>基本信息</h3>
+<p>Unified framework fo consensus clustering.</p>
+<div id="basic" class="section level3">
+<h3>Basic</h3>
 <div id="soft-info">
 <table>
 <colgroup>
@@ -370,7 +370,7 @@ display: none;
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">编程语言</td>
+<td align="left">Language</td>
 <td align="left">R, C++, JavaScript</td>
 </tr>
 <tr class="even">
@@ -382,11 +382,11 @@ display: none;
 <td align="left"><a href="https://github.com/jokergoo/cola" class="uri">https://github.com/jokergoo/cola</a></td>
 </tr>
 <tr class="even">
-<td align="left">文档</td>
+<td align="left">Documentation</td>
 <td align="left"><a href="https://jokergoo.github.io/cola/" class="uri">https://jokergoo.github.io/cola/</a></td>
 </tr>
 <tr class="odd">
-<td align="left">论文</td>
+<td align="left">Publication</td>
 <td align="left">Zuguang Gu, et al., <a href="https://doi.org/10.1093/bib/bbac048">Improve consensus
 partitioning via a hierarchical procedure</a>. <em>Briefings in
 Bioinformatics</em> 2022.<br>Zuguang Gu, et al., <a href="https://doi.org/10.1093/nar/gkaa1146">cola: an R/Bioconductor
@@ -397,9 +397,9 @@ package for consensus partitioning through a general framework</a>.
 </table>
 </div>
 </div>
-<div id="例子" class="section level3">
-<h3>例子</h3>
-<p>标准一致性聚类：</p>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>Standrad consensus clustering.</p>
 <pre class="r"><code>mat = adjust_matrix(mat) # optional
 rl = run_all_consensus_partition_methods(
     mat, 
@@ -407,7 +407,7 @@ rl = run_all_consensus_partition_methods(
     partition_method = c(&quot;hclust&quot;, &quot;kmeans&quot;, ...),
     cores = ...)
 cola_report(rl, output_dir = ...)</code></pre>
-<p>或者等级一致性聚类：</p>
+<p>Hierarchical consensus clustering.</p>
 <pre class="r"><code>mat = adjust_matrix(mat) # optional
 rh = hierarchical_partition(mat, mc.cores = ...)
 cola_report(rh, output_dir = ...)</code></pre>

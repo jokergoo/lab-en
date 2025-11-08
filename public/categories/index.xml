@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 深圳理工大学生物信息学课题组</title>
-    <link>http://localhost:4321/lab-cn/categories/</link>
-    <description>Recent content in Categories on 深圳理工大学生物信息学课题组</description>
+    <title>Categories on Bioinformatics@SUAT</title>
+    <link>http://localhost:4321/lab-en/categories/</link>
+    <description>Recent content in Categories on Bioinformatics@SUAT</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:4321/lab-cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:4321/lab-en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R</title>
+      <link>http://localhost:4321/lab-en/categories/r/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>http://localhost:4321/lab-en/categories/r/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

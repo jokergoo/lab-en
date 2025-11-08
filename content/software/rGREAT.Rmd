@@ -15,25 +15,25 @@ knitr::opts_chunk$set(
 )
 ```
 
-基于基因组区间的功能富集分析。
+Functional enrichment analysis on genomic regions.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R, C++
+Language | R, C++
 Bioconductor | https://bioconductor.org/packages/rGREAT/ 
 GitHub | https://github.com/jokergoo/rGREAT
-文档 | https://jokergoo.github.io/rGREAT/
-论文 | Zuguang Gu, et al., [rGREAT: an R/bioconductor package for functional enrichment on genomic regions](https://doi.org/10.1093/bioinformatics/btac745). _Bioinformatics_ 2023.
+Documentation | https://jokergoo.github.io/rGREAT/
+Publication | Zuguang Gu, et al., [rGREAT: an R/bioconductor package for functional enrichment on genomic regions](https://doi.org/10.1093/bioinformatics/btac745). _Bioinformatics_ 2023.
 
 
 
 </div>
 
-### 例子
+### Example
 
 ```{r}
 library(rGREAT)

@@ -5,23 +5,23 @@ title: gtrellis
 
 
 
-基因组trellis布局。
+Genomic trellis layout
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/gtrellis/ 
 GitHub | https://github.com/jokergoo/gtrellis
-文档 | https://jokergoo.github.io/gtrellis/
-论文 | Zuguang Gu, et al., [gtrellis: an R/Bioconductor package for making genome-level Trellis graphics](https://doi.org/10.1186/s12859-016-1051-4). _BMC Bioinformatics_ 2016.
+Documentation | https://jokergoo.github.io/gtrellis/
+Publication | Zuguang Gu, et al., [gtrellis: an R/Bioconductor package for making genome-level Trellis graphics](https://doi.org/10.1186/s12859-016-1051-4). _BMC Bioinformatics_ 2016.
 
 </div>
 
-### 例子
+### Example
 
 
 ``` r
@@ -56,7 +56,7 @@ gtrellis_layout(n_track = 2, nrow = 4, compact = TRUE,
 add_graphics()
 ```
 
-<img src="/software/gtrellis_files/figure-html/unnamed-chunk-2-1.png" width="1152" />
+<img src="/lab-en/software/gtrellis_files/figure-html/unnamed-chunk-2-1.png" width="1152" />
 
 <script>
 $( function() {

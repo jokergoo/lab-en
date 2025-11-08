@@ -1,5 +1,5 @@
 ---
-title: "成员"
+title: "Members"
 ---
 
 <style>
@@ -28,7 +28,7 @@ title: "成员"
 }
 </style>
 
-### 实验室负责人：
+### PI
 
 <div class="people">
 
@@ -36,10 +36,10 @@ title: "成员"
 
 <div class="intro">
 
-- [顾祖光](zuguang_gu)
-- 特聘杰出教授
-- 深圳理工大学 / 细胞与基因技术研究院
-- 邮箱：guzuguang@suat-sz.edu.cn
+- [Zuguang Gu](zuguang_gu)
+- Distinguished Professor
+- Institute of Cell and Gene Technology
+- Email: guzuguang@suat-sz.edu.cn
 
 </div>
 
@@ -47,35 +47,16 @@ title: "成员"
 
 </div>
 
-### 博士后
+### Post-doctoral Researchers
 
 <div class="people">
 
-<img src="/lab-cn/members_files/figure-html/unnamed-chunk-1-1.png" width="480" />
+<img src="/lab-en/members_files/figure-html/unnamed-chunk-1-1.png" width="480" />
 
 <div class="intro">
 
-- 姓名
-- 邮箱：something@suat-sz.edu.cn
-
-</div>
-
-<div style="clear:both;"></div>
-
-</div>
-
-
-
-### 博士研究生
-
-<div class="people">
-
-<img src="/lab-cn/members_files/figure-html/unnamed-chunk-2-1.png" width="480" />
-
-<div class="intro">
-
-- 姓名
-- 邮箱：something@suat-sz.edu.cn
+- Name
+- Email: something@suat-sz.edu.cn
 
 </div>
 
@@ -85,18 +66,36 @@ title: "成员"
 
 
 
-
-
-### 硕士研究生
+### Ph.D. Students
 
 <div class="people">
 
-<img src="/lab-cn/members_files/figure-html/unnamed-chunk-3-1.png" width="480" />
+<img src="/lab-en/members_files/figure-html/unnamed-chunk-2-1.png" width="480" />
 
 <div class="intro">
 
-- 姓名
-- 邮箱：something@suat-sz.edu.cn
+- Name
+- Email: something@suat-sz.edu.cn
+
+</div>
+
+<div style="clear:both;"></div>
+
+</div>
+
+
+
+
+### Master Students
+
+<div class="people">
+
+<img src="/lab-en/members_files/figure-html/unnamed-chunk-3-1.png" width="480" />
+
+<div class="intro">
+
+- Name
+- Email: something@suat-sz.edu.cn
 
 </div>
 

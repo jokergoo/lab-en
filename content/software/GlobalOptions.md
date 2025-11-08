@@ -5,22 +5,22 @@ title: GlobalOptions
 
 
 
-设置全局变量。
+Setting global options.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 CRAN | https://cran.r-project.org/package=GlobalOptions
 GitHub | https://github.com/jokergoo/GlobalOptions
-文档 | https://jokergoo.github.io/GlobalOptions/
+Documentation | https://jokergoo.github.io/GlobalOptions/
 
 </div>
 
-### 例子
+### Example
 
 
 ``` r
@@ -31,7 +31,7 @@ opt = set_opt(
 )
 ```
 
-然后可以通过下面方式设置或者获取参数值。
+then global options can be get or set via the following ways.
 
 ```r
 opt()

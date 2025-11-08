@@ -15,24 +15,23 @@ knitr::opts_chunk$set(
 )
 ```
 
-发送 R 代码至 LSF 集群。
+Send R code to LSF clusters.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 CRAN | https://CRAN.R-project.org/package=bsub
 GitHub | https://github.com/jokergoo/bsub
-文档 | https://jokergoo.github.io/bsub/
+Documentation | https://jokergoo.github.io/bsub/
 
 </div>
 
-### 例子
+### Example
 
-发送一段 R 代码至 LSF 集群：
 
 ```r
 library(bsub)

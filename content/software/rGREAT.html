@@ -353,9 +353,9 @@ display: none;
 </div>
 
 
-<p>基于基因组区间的功能富集分析。</p>
-<div id="基本信息" class="section level3">
-<h3>基本信息</h3>
+<p>Functional enrichment analysis on genomic regions.</p>
+<div id="basic" class="section level3">
+<h3>Basic</h3>
 <div id="soft-info">
 <table>
 <colgroup>
@@ -370,7 +370,7 @@ display: none;
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">编程语言</td>
+<td align="left">Language</td>
 <td align="left">R, C++</td>
 </tr>
 <tr class="even">
@@ -382,11 +382,11 @@ display: none;
 <td align="left"><a href="https://github.com/jokergoo/rGREAT" class="uri">https://github.com/jokergoo/rGREAT</a></td>
 </tr>
 <tr class="even">
-<td align="left">文档</td>
+<td align="left">Documentation</td>
 <td align="left"><a href="https://jokergoo.github.io/rGREAT/" class="uri">https://jokergoo.github.io/rGREAT/</a></td>
 </tr>
 <tr class="odd">
-<td align="left">论文</td>
+<td align="left">Publication</td>
 <td align="left">Zuguang Gu, et al., <a href="https://doi.org/10.1093/bioinformatics/btac745">rGREAT: an
 R/bioconductor package for functional enrichment on genomic regions</a>.
 <em>Bioinformatics</em> 2023.</td>
@@ -395,34 +395,34 @@ R/bioconductor package for functional enrichment on genomic regions</a>.
 </table>
 </div>
 </div>
-<div id="例子" class="section level3">
-<h3>例子</h3>
+<div id="example" class="section level3">
+<h3>Example</h3>
 <pre class="r"><code>library(rGREAT)
 gr = randomRegions(nr = 1000, genome = &quot;hg19&quot;)
 res = great(gr, &quot;MSigDB:H&quot;, &quot;TxDb.Hsapiens.UCSC.hg19.knownGene&quot;)
 tb = getEnrichmentTable(res)
 head(tb)</code></pre>
-<pre><code>##                           id genome_fraction observed_region_hits
-## 1 HALLMARK_KRAS_SIGNALING_DN      0.02117144                   31
-## 2         HALLMARK_APOPTOSIS      0.01557222                   23
-## 3       HALLMARK_E2F_TARGETS      0.01343042                   18
-## 4       HALLMARK_P53_PATHWAY      0.01606728                   20
-## 5  HALLMARK_MTORC1_SIGNALING      0.01631529                   20
-## 6      HALLMARK_ADIPOGENESIS      0.01484863                   18
+<pre><code>##                                    id genome_fraction observed_region_hits
+## 1                 HALLMARK_PEROXISOME     0.008096627                   14
+## 2 HALLMARK_WNT_BETA_CATENIN_SIGNALING     0.005978667                   10
+## 3                HALLMARK_E2F_TARGETS     0.013430423                   18
+## 4            HALLMARK_MITOTIC_SPINDLE     0.018898872                   24
+## 5          HALLMARK_KRAS_SIGNALING_DN     0.021171443                   25
+## 6    HALLMARK_TNFA_SIGNALING_VIA_NFKB     0.024706189                   28
 ##   fold_enrichment    p_value  p_adjust mean_tss_dist observed_gene_hits
-## 1        1.577841 0.01002558 0.4010230        246864                 24
-## 2        1.591583 0.02201879 0.4403758        191397                 22
-## 3        1.444225 0.08106639 0.8571660        214040                 16
-## 4        1.341343 0.11804437 0.8571660        277140                 16
-## 5        1.320952 0.13092725 0.8571660        225502                 15
-## 6        1.306286 0.15582173 0.8571660        156577                 18
+## 1        1.835579 0.02386951 0.8909642        194547                 12
+## 2        1.775598 0.06034017 0.8909642        351269                  8
+## 3        1.422761 0.08996122 0.8909642        101834                 16
+## 4        1.348107 0.09065593 0.8909642        143294                 21
+## 5        1.253541 0.15124427 0.8909642        224698                 22
+## 6        1.203099 0.18533232 0.8909642        311372                 25
 ##   gene_set_size fold_enrichment_hyper p_value_hyper p_adjust_hyper
-## 1           198              1.615088    0.01355044     0.13550437
-## 2           158              1.855307    0.00359383     0.04791773
-## 3           198              1.076726    0.41681192     0.79392747
-## 4           197              1.082191    0.40878546     0.79392747
-## 5           200              0.999336    0.53996338     0.89993897
-## 6           200              1.199203    0.24427706     0.65140550</code></pre>
+## 1           104              1.501861   0.101903571      0.4483757
+## 2            41              2.539732   0.011604097      0.2039874
+## 3           198              1.051808   0.454511919      0.8908145
+## 4           198              1.380499   0.082495353      0.4033106
+## 5           198              1.446237   0.051398534      0.2826919
+## 6           197              1.651793   0.009046296      0.2039874</code></pre>
 <script>
 $( function() {
     $("table thead").css("display", "none");

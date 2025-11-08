@@ -5,27 +5,28 @@ title: EnrichedHeatmap
 
 
 
-可视化基因组水平的信号在某种基因组区间上的富集模式。
+Visualize enrichment of genome-level signals over a type of genomic features.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R, C++
+Language | R, C++
 Bioconductor | https://bioconductor.org/packages/EnrichedHeatmap/
 GitHub | https://github.com/jokergoo/EnrichedHeatmap
-文档 | https://jokergoo.github.io/EnrichedHeatmap/
-论文 | Zuguang Gu, et al., [EnrichedHeatmap: an R/Bioconductor package for comprehensive visualization of genomic signal associations](https://doi.org/10.1186/s12864-018-4625-x). _BMC Genomics_ 2018.
+Documentation | https://jokergoo.github.io/EnrichedHeatmap/
+Publication | Zuguang Gu, et al., [EnrichedHeatmap: an R/Bioconductor package for comprehensive visualization of genomic signal associations](https://doi.org/10.1186/s12864-018-4625-x). _BMC Genomics_ 2018.
 
 
 </div>
 
 
-### 例子
+### Example
 
-可视化H3K4me3和DNA甲基化在TSS附近的富集模式。
+
+Enrichment of H3K4me3 and DNA methylation around TSS.
 
 
 ``` r
@@ -62,7 +63,7 @@ draw(ht_list, split = partition, annotation_legend_list = list(lgd),
     ht_gap = unit(c(2, 8, 8), "mm"))
 ```
 
-<img src="/software/EnrichedHeatmap_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/EnrichedHeatmap_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 <script>
 $( function() {

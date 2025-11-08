@@ -353,9 +353,9 @@ display: none;
 </div>
 
 
-<p>命令行参数解析与变量插值。</p>
-<div id="基本信息" class="section level3">
-<h3>基本信息</h3>
+<p>Command-line argument parser.</p>
+<div id="basic" class="section level3">
+<h3>Basic</h3>
 <div id="soft-info">
 <table>
 <thead>
@@ -366,7 +366,7 @@ display: none;
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">编程语言</td>
+<td align="left">Language</td>
 <td align="left">R, Perl</td>
 </tr>
 <tr class="even">
@@ -378,16 +378,16 @@ display: none;
 <td align="left"><a href="https://github.com/jokergoo/GetoptLong" class="uri">https://github.com/jokergoo/GetoptLong</a></td>
 </tr>
 <tr class="even">
-<td align="left">文档</td>
+<td align="left">Documentation</td>
 <td align="left"><a href="https://jokergoo.github.io/GetoptLong/" class="uri">https://jokergoo.github.io/GetoptLong/</a></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="例子" class="section level3">
-<h3>例子</h3>
-<p>如果在R脚本中添加：</p>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>Add in the beginning of the R script:</p>
 <pre class="r"><code>library(GetoptLong)
 
 cutoff = 0.05
@@ -396,12 +396,13 @@ GetoptLong(
     &quot;cutoff=f&quot;, &quot;Cutoff for filtering results.&quot;,
     &quot;verbose!&quot;, &quot;Print message.&quot;
 )</code></pre>
-<p>那么可以在命令行模式下输入如下格式的参数：</p>
+<p>then in the command-line mode, arguments in the following formats can
+be called:</p>
 <pre><code>~\&gt; Rscript foo.R --number 4 --cutoff 0.01 --verbose
 ~\&gt; Rscript foo.R --number=4 --cutoff=0.01 --no-verbose
 ~\&gt; Rscript foo.R -n 4 -c 0.01 -v
 ~\&gt; Rscript foo.R -n 4 --verbose</code></pre>
-<p>帮助信息自动生成：</p>
+<p>Help messages are automatically generated.</p>
 <pre><code>~\&gt; Rscript foo.R --help 
 Usage: Rscript foo.R [options]
 
@@ -421,7 +422,7 @@ Options:
  
   --version
     Print version information and exit.</code></pre>
-<p>GetoptLong包中也实现了简单的变量插值（variable interpolation）：</p>
+<p>GetoptLong also implements simple variable interpolation.</p>
 <pre class="r"><code>library(GetoptLong)
 r = c(1, 2)
 value = 4

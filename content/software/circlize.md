@@ -5,27 +5,27 @@ title: circlize
 
 
 
-circlize 提供了圈形布局的通用可视化方法。
+circlize provides general solutions for circular visualization.
 
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 CRAN | https://CRAN.R-project.org/package=circlize 
 GitHub | https://github.com/jokergoo/circlize
-文档 | https://jokergoo.github.io/circlize_book/book/
-论文 | Zuguang Gu, et al., [circlize Implements and enhances circular visualization in R](https://doi.org/10.1093/bioinformatics/btu393). _Bioinformatics_ 2014.
+Documentation | https://jokergoo.github.io/circlize_book/book/
+Publication | Zuguang Gu, et al., [circlize Implements and enhances circular visualization in R](https://doi.org/10.1093/bioinformatics/btu393). _Bioinformatics_ 2014.
 
 
 </div>
 
-### 例子
+### Example
 
-绘制简单的 xy 坐标图：
+Simple xy-coordination system.
 
 
 ``` r
@@ -37,13 +37,13 @@ circos.trackPlotRegion(ylim = c(0, 1), track.height = 0.4, panel.fun = function(
 })
 ```
 
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 ``` r
 circos.clear()
 ```
 
-绘制基因组图：
+Genome-level visualization.
 
 
 ``` r
@@ -58,13 +58,13 @@ circos.genomicDensity(bed_list[[1]], col = c("#FF000080"), track.height = 0.1)
 circos.genomicDensity(bed_list[[2]], col = c("#0000FF80"), track.height = 0.1)
 ```
 
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-3-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-3-1.png" width="768" />
 
 ``` r
 circos.clear()
 ```
 
-绘制和弦图（Chord diagram）：
+Chord diagram.
 
 
 ``` r
@@ -77,15 +77,15 @@ cn = colnames(mat)
 chordDiagram(mat)
 ```
 
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-4-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-4-1.png" width="768" />
 
 ``` r
 circos.clear()
 ```
 
-更多的例子：
+More examples.
 
-<img src="/image/circlize_example.jpeg" />
+<img src="image/circlize_example.jpeg" />
 
 <script>
 $( function() {

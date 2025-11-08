@@ -15,24 +15,24 @@ knitr::opts_chunk$set(
 )
 ```
 
-生物本体论分析工具箱。
+Toolbox for bio-ontology analysis.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R, C++
+Language | R, C++
 Bioconductor | https://bioconductor.org/packages/simona/ 
 GitHub | https://github.com/jokergoo/simona
-文档 | https://jokergoo.github.io/simona/
-论文 | Zuguang Gu, [simona: a comprehensive R package for semantic similarity analysis on bio-ontologies](https://doi.org/10.1186/s12864-024-10759-4). _BMC genomics_ 2024.
+Documentation | https://jokergoo.github.io/simona/
+Publication | Zuguang Gu, [simona: a comprehensive R package for semantic similarity analysis on bio-ontologies](https://doi.org/10.1186/s12864-024-10759-4). _BMC genomics_ 2024.
 
 
 </div>
 
-### 例子
+### Example
 
 ```{r}
 library(simona)

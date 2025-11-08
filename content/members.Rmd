@@ -28,7 +28,7 @@ title: "Members"
 }
 </style>
 
-### Principal Investigator
+### PI
 
 <div class="people">
 
@@ -37,7 +37,7 @@ title: "Members"
 <div class="intro">
 
 - [Zuguang Gu](zuguang_gu)
-- Distinguished professor
+- Distinguished Professor
 - Institute of Cell and Gene Technology
 - Email: guzuguang@suat-sz.edu.cn
 
@@ -90,7 +90,6 @@ grid.text("place holder", gp = gpar(fontsize = 40))
 <div style="clear:both;"></div>
 
 </div>
-
 
 
 

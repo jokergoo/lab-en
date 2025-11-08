@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+
 ```{r, echo = FALSE}
 library(rvest)
 library(jsonlite)
@@ -103,7 +104,7 @@ for(i in seq_len(nrow(all_pkgs))) {
 }
 ```
 
-Total downloads are ~<strong>`r format_dn(total_downloads)`</strong>. Data is from [CRAN](https://cranlogs.r-pkg.org) / [Bioconductor](https://bioconductor.org/packages/stats/index.html) / [Anaconda](https://anaconda.org/), updated on `r Sys.Date()`.
+Mainly using R as the programming language. Total downloads ~ <strong>`r format_dn(total_downloads)`</strong>. Data is from [CRAN](https://cranlogs.r-pkg.org) / [Bioconductor](https://bioconductor.org/packages/stats/index.html) / [Anaconda](https://anaconda.org/). Updated on `r Sys.Date()`.
 
 
 <style>
@@ -161,7 +162,7 @@ Package | downloads   |  github | publication
 [BioCartaImage](BioCartaImage/): BioCarta Pathway Images.| [![Bioc](https://img.shields.io/badge/downloads-`r format_dn_bioc('BioCartaImage')`-blue)](http://bioconductor.org/packages/stats/bioc/BioCartaImage/) | [![GitHub stars](https://img.shields.io/github/stars/jokergoo/BioCartaImage.svg?style=social&label=Star)](https://github.com/jokergoo/BioCartaImage) | 
 </div>
 
-### Data Modelling and Analysis
+### Modeling and Analysis
 
 <div class="tb123" id="tb2">
 
@@ -175,7 +176,7 @@ Package | downloads   |  github | publication
 [CePa](CePa/): Centrality-based Pathway Enrichment. | [![CRAN](https://img.shields.io/badge/downloads-`r format_dn_cran("CePa")`-blue)](https://cran.r-project.org/web/packages/CePa/index.html) | [![GitHub stars](https://img.shields.io/github/stars/jokergoo/CePa.svg?style=social&label=Star)](https://github.com/jokergoo/CePa) | [![](https://img.shields.io/badge/published%20on-Bioinformatics-9cf)](https://doi.org/10.1093/bioinformatics/btt008)
 </div>
 
-### Data Annotation
+### Annotation and Data Packages
 
 <div class="tb123" id="tb3">
 

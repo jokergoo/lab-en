@@ -15,18 +15,18 @@ knitr::opts_chunk$set(
 )
 ```
 
-Illumina Epic 甲基化芯片v2的探针注释。
+Probe annotation of Illumina Epic array v2.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/IlluminaHumanMethylationEPICv2manifest/ 
 GitHub | https://github.com/jokergoo/IlluminaHumanMethylationEPICv2manifest
-文档 | https://jokergoo.github.io/IlluminaHumanMethylationEPICv2manifest/
+Documentation| https://jokergoo.github.io/IlluminaHumanMethylationEPICv2manifest/
 
 </div>
 

@@ -5,26 +5,26 @@ title: spiralize
 
 
 
-[阿基米德螺线](https://en.wikipedia.org/wiki/Archimedean_spiral)（Archimedean spiral）可视化。
+[Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral) visualization.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 CRAN | https://cran.r-project.org/package=spiralize
 GitHub | https://github.com/jokergoo/spiralize
-文档 | https://jokergoo.github.io/spiralize/
-论文 | Zuguang Gu, et al., [spiralize: an R package for visualizing data on spirals](https://doi.org/10.1093/bioinformatics/btab778). _Bioinformatics_ 2022.
+Documentation | https://jokergoo.github.io/spiralize/
+Publication | Zuguang Gu, et al., [spiralize: an R package for visualizing data on spirals](https://doi.org/10.1093/bioinformatics/btab778). _Bioinformatics_ 2022.
 
 
 </div>
 
-### 例子
+### Example
 
-全球气温在近20年间的变化
+Global temperature change in the recent 20 years.
 
 
 ``` r
@@ -46,7 +46,7 @@ spiral_text("1980-01-01", 0.5, "1980", gp = gpar(fontsize = 8))
 spiral_text("2000-01-01", 0.5, "2000", gp = gpar(fontsize = 8))
 ```
 
-<img src="/software/spiralize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/spiralize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 
 <script>

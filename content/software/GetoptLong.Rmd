@@ -15,25 +15,25 @@ knitr::opts_chunk$set(
 )
 ```
 
-命令行参数解析与变量插值。
+Command-line argument parser.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R, Perl
+Language | R, Perl
 CRAN | https://cran.r-project.org/package=GetoptLong
 GitHub | https://github.com/jokergoo/GetoptLong
-文档 | https://jokergoo.github.io/GetoptLong/
+Documentation | https://jokergoo.github.io/GetoptLong/
 
 </div>
 
 
-### 例子
+### Example
 
-如果在R脚本中添加：
+Add in the beginning of the R script:
 
 ```r
 library(GetoptLong)
@@ -46,7 +46,7 @@ GetoptLong(
 )
 ```
 
-那么可以在命令行模式下输入如下格式的参数：
+then in the command-line mode, arguments in the following formats can be called:
 
 ```
 ~\> Rscript foo.R --number 4 --cutoff 0.01 --verbose
@@ -55,7 +55,7 @@ GetoptLong(
 ~\> Rscript foo.R -n 4 --verbose
 ```
 
-帮助信息自动生成：
+Help messages are automatically generated.
 
 ```
 ~\> Rscript foo.R --help 
@@ -79,7 +79,7 @@ Options:
     Print version information and exit.
 ```
 
-GetoptLong包中也实现了简单的变量插值（variable interpolation）：
+GetoptLong also implements simple variable interpolation.
 
 ```{r}
 library(GetoptLong)

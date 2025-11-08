@@ -5,22 +5,22 @@ title: UniProtKeywords
 
 
 
-UniProt 数据库[关键词](https://www.uniprot.org/keywords/)数据。
+UniProt [Keywords](https://www.uniprot.org/keywords/) data
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/UniProtKeywords/ 
 GitHub | https://github.com/jokergoo/UniProtKeywords
-文档 | https://jokergoo.github.io/UniProtKeywords/
+Documentation | https://jokergoo.github.io/UniProtKeywords/
 
 </div>
 
-### 例子
+### Example
 
 
 ``` r

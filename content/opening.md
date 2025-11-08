@@ -1,5 +1,5 @@
 ---
-title: "职位"
+title: "Position"
 ---
 
-长期招收硕士研究生，博士研究生和博士后研究员。
+We are looking for Postdocs, Ph.D. students and master students.

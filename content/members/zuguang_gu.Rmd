@@ -1,8 +1,8 @@
 ---
-title: "顾祖光"
+title: "Zuguang Gu"
 ---
 
-个人介绍
+Description
 
 <style>
 ul {
@@ -21,7 +21,7 @@ table td {
 }
 </style>
 
-### 基本信息
+### Basic
 
  | 
 :------ | :---------
@@ -29,40 +29,41 @@ ORCiD | https://orcid.org/0000-0002-7395-8709
 Google Scholar | https://scholar.google.de/citations?user=zheH1qkAAAAJ
 GitHub | https://github.com/jokergoo/
 
-### 工作经历
+### Experience
 
  | |
 :------ | :--------- | :---------
-[德国癌症研究中心](https://www.dkfz.de/)，[德国国家肿瘤中心](https://www.nct-heidelberg.de/index.html) | 永久科学家 | 2022-2025
-[德国癌症研究中心](https://www.dkfz.de/)，[德国国家肿瘤中心](https://www.nct-heidelberg.de/index.html) | 高级科学家 | 2018-2021
-[德国癌症研究中心](https://www.dkfz.de/) | 博士后 | 2013-2018
+[German Cancer Research Center](https://www.dkfz.de/), [German National Center of Tumor Diseases](https://www.nct-heidelberg.de/index.html) | Permanent scientist | 2022-2025
+[German Cancer Research Center](https://www.dkfz.de/), [German National Center of Tumor Diseases](https://www.nct-heidelberg.de/index.html) | Senior scientist | 2018-2021
+[German Cancer Research Center](https://www.dkfz.de/) | Post-dostoral researcher | 2013-2018
 
-### 学习经历
+### Study
 
  |            |            |
 :------ | :--------- | :--------- | :----------- 
-南京大学 | 生物化学与分子生物学 |  博士 		|     2009-2012
-南京大学 | 生物化学与分子生物学 |  硕士 		|     2005-2008
-南京大学 | 生物化学与分子生物学 |  本科 		|     2001-2005
+Nanjing University | Biochemistry and Molecular Biology |  Ph.D. 		|     2009-2012
+Nanjing University | Biochemistry and Molecular Biology |  Master 		|     2005-2008
+Nanjing University | Biochemistry and Molecular Biology |  Bachelor 	|     2001-2005
 
 
-### 开源书籍
+### Open-source Books
 
 - [Circular Visualization in R](https://jokergoo.github.io/circlize_book/book/).
 - [ComplexHeatmap Complete Reference](https://jokergoo.github.io/ComplexHeatmap-reference/book/).
-- [Gene Set Enrichment Analysis with R and Bioconductor](https://github.com/jokergoo/GSEA_book) (进行中). 
+- [Gene Set Enrichment Analysis with R and Bioconductor](https://github.com/jokergoo/GSEA_book) (ongoing). 
 
-### 邀请报告
+### Invited Talks
 
-- [Several examples of making complex heatmaps](https://bio-it.embl.de/emblr/), EMBL Heidelberg, 德国, 2025.
-- Analyze the R package ecosystem, Queen Mary University of London Charterhouse Square Bioinformatics network, 英国, 2025.
-- [Biological data visualization in R and Bioconductor](https://www.ghga.de/events/detail/ghga-webinar-biological-data-visualisation-in-r-and-bioconductor), GHGA Webinar, Heidelberg, 德国, 2024.
-- [组学数据分析和可视化工具开发](https://blog.csdn.net/woodcorpse/article/details/138638507), iMeta系列讲座, 2024.
-- [复杂热图](https://cs.chinagut.cn/academic/report?agendaCode=d8d080137c2848d285a8a1054711f2e5), 中国肠道大会, 2023.
-- Make Complex Heatmaps. Moffitt Cancer Center Bio-Data Club, 美国, 2022.
+- [Several examples of making complex heatmaps](https://bio-it.embl.de/emblr/), EMBL Heidelberg, Germany, 2025.
+- Analyze the R package ecosystem, Queen Mary University of London Charterhouse Square Bioinformatics network, UK, 2025.
+- [Biological data visualization in R and Bioconductor](https://www.ghga.de/events/detail/ghga-webinar-biological-data-visualisation-in-r-and-bioconductor), GHGA Webinar, Heidelberg, Germany, 2024.
+- [Omics data analysis and software development for visualization tools](https://blog.csdn.net/woodcorpse/article/details/138638507), iMeta series, 2024.
+- [Complex heatmaps](https://cs.chinagut.cn/academic/report?agendaCode=d8d080137c2848d285a8a1054711f2e5), China Gut Conference, 2023.
+- Make Complex Heatmaps. Moffitt Cancer Center Bio-Data Club, USA, 2022.
 
 
-### 会议报告
+### Conference Talks
+
 - [On the Dependency Heaviness of CRAN/Bioconductor Ecosystem](https://bioc2023.bioconductor.org/abstracts/paper10/), Bioconductor conference 2023.
 - [rGREAT: an R/Bioconductor Package for Functional Enrichment on Genomic Regions](https://bioc2023.bioconductor.org/abstracts/paper9/), Bioconductor conference 2023.
 - [simplifyEnrichment: A Bioconductor Package for Clustering and Visualizing Functional Enrichment Results](https://eurobioc2022.bioconductor.org/workshops/paper6/), EuroBioc conference 2022.
@@ -72,14 +73,15 @@ GitHub | https://github.com/jokergoo/
 - [Make interactive complex heatmaps](https://bioc2021.bioconductor.org/posters/paper3/), Bioconductor conference 2021. Awarded as Best Innovative poster ideas.
 - [circlize: circular visualization in R](https://user2015.math.aau.dk/poster_session), useR! conference 2015.
 
-### 教学
+### Teaching
+
 - [Develop the official Bioconductor teaching material](https://carpentries-incubator.github.io/bioc-rnaseq/06-gene-set-analysis.html).
 - [Workshop on gene set enrichment analysis](https://www.ghga.de/events/detail/ghga-summer-school-on-gene-set-enrichment-analysis-with-r), collaborating with GHGA in June 2025.
 - Supervised two intern students (2015, 2017) and two master students (2018, 2023), Heidelberg University.
 - Lectures on the topic of clustering (for master students), Heidelberg University, 2018.
 - Teaching assistant of the Perl programming course, Heidelberg University, 2014.
 
-### 基金
+### Grant
 
 - Dependency Heaviness Analysis on Software Ecosystems, [Klaus Tschira Stiftung](https://klaus-tschira-stiftung.de/en/), Germany, 10.2024 - 09.2026.
 

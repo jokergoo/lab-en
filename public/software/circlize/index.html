@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head><script src="/lab-cn/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=lab-cn/livereload" data-no-instant defer></script>
+  <head><script src="/lab-en/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=lab-en/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -31,7 +31,7 @@
          circlize 
       
     </title>
-    <link rel="canonical" href="http://localhost:4321/lab-cn/software/circlize/">
+    <link rel="canonical" href="http://localhost:4321/lab-en/software/circlize/">
 
     <style>
   * {
@@ -423,7 +423,7 @@
 }
 </style>
 <script>
-window.root_dir = "http:\/\/localhost:4321\/lab-cn\/";
+window.root_dir = "http:\/\/localhost:4321\/lab-en\/";
 const regex = /^https?:\/\/[^/]+?\//;
 root_dir = root_dir.replace(regex, "/");
 $( function() {
@@ -447,19 +447,19 @@ $( function() {
       <a href="#" id="nav-logo-text">Gu<span style="padding:0px 2px">.</span>Z<span id="at">@</span>SUAT-SZ</a>
       <ul style="float:right">
         
-          <li><a href="/lab-cn/research/">研究</a></li>
+          <li><a href="/lab-en/research/">Research</a></li>
         
-          <li><a href="/lab-cn/publication/">论文</a></li>
+          <li><a href="/lab-en/publication/">Publication</a></li>
         
-          <li><a href="/lab-cn/software/">软件</a></li>
+          <li><a href="/lab-en/software/">Software</a></li>
         
-          <li><a href="/lab-cn/post">文章</a></li>
+          <li><a href="/lab-en/post">Post</a></li>
         
-          <li><a href="/lab-cn/members/">成员</a></li>
+          <li><a href="/lab-en/members/">Members</a></li>
         
-          <li><a href="/lab-cn/opening/">职位</a></li>
+          <li><a href="/lab-en/opening/">Position</a></li>
         
-          <li><a href="">En</a></li>
+          <li><a href="/lab-cn/">CN</a></li>
         
       </ul>
     </section>
@@ -471,8 +471,8 @@ $( function() {
   
 
   <div class="entry-content">
-    <p>circlize 提供了圈形布局的通用可视化方法。</p>
-<h3 id="基本信息">基本信息</h3>
+    <p>circlize provides general solutions for circular visualization.</p>
+<h3 id="basic">Basic</h3>
 <div id="soft-info">
 <table>
   <thead>
@@ -483,7 +483,7 @@ $( function() {
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">编程语言</td>
+          <td style="text-align: left">Language</td>
           <td style="text-align: left">R</td>
       </tr>
       <tr>
@@ -495,18 +495,18 @@ $( function() {
           <td style="text-align: left"><a href="https://github.com/jokergoo/circlize">https://github.com/jokergoo/circlize</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">文档</td>
+          <td style="text-align: left">Documentation</td>
           <td style="text-align: left"><a href="https://jokergoo.github.io/circlize_book/book/">https://jokergoo.github.io/circlize_book/book/</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">论文</td>
+          <td style="text-align: left">Publication</td>
           <td style="text-align: left">Zuguang Gu, et al., <a href="https://doi.org/10.1093/bioinformatics/btu393">circlize Implements and enhances circular visualization in R</a>. <em>Bioinformatics</em> 2014.</td>
       </tr>
   </tbody>
 </table>
 </div>
-<h3 id="例子">例子</h3>
-<p>绘制简单的 xy 坐标图：</p>
+<h3 id="example">Example</h3>
+<p>Simple xy-coordination system.</p>
 <pre><code class="language-r">library(circlize)
 factors = letters[1:7]
 circos.initialize(factors, xlim = c(0, 1))
@@ -514,10 +514,10 @@ circos.trackPlotRegion(ylim = c(0, 1), track.height = 0.4, panel.fun = function(
     circos.points(runif(100), runif(100), cex = 0.5)
 })
 </code></pre>
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 <pre><code class="language-r">circos.clear()
 </code></pre>
-<p>绘制基因组图：</p>
+<p>Genome-level visualization.</p>
 <pre><code class="language-r">load(paste(system.file(package = &quot;circlize&quot;), &quot;/extdata/DMR.RData&quot;, sep = &quot;&quot;))
 
 circos.initializeWithIdeogram(plotType = c(&quot;axis&quot;, &quot;labels&quot;))
@@ -528,10 +528,10 @@ circos.genomicRainfall(bed_list, pch = 16, cex = 0.4, col = c(&quot;#FF000080&qu
 circos.genomicDensity(bed_list[[1]], col = c(&quot;#FF000080&quot;), track.height = 0.1)
 circos.genomicDensity(bed_list[[2]], col = c(&quot;#0000FF80&quot;), track.height = 0.1)
 </code></pre>
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-3-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-3-1.png" width="768" />
 <pre><code class="language-r">circos.clear()
 </code></pre>
-<p>绘制和弦图（Chord diagram）：</p>
+<p>Chord diagram.</p>
 <pre><code class="language-r">mat = matrix(sample(1:100, 18, replace = TRUE), 3, 6)
 rownames(mat) = letters[1:3]
 colnames(mat) = LETTERS[1:6]
@@ -540,11 +540,11 @@ cn = colnames(mat)
 
 chordDiagram(mat)
 </code></pre>
-<img src="/lab-cn/software/circlize_files/figure-html/unnamed-chunk-4-1.png" width="768" />
+<img src="/lab-en/software/circlize_files/figure-html/unnamed-chunk-4-1.png" width="768" />
 <pre><code class="language-r">circos.clear()
 </code></pre>
-<p>更多的例子：</p>
-<img src="/image/circlize_example.jpeg" />
+<p>More examples.</p>
+<img src="image/circlize_example.jpeg" />
 <script>
 $( function() {
 	$("table thead").css("display", "none");
@@ -574,7 +574,7 @@ $( function() {
 </style>
 
 <footer class="footer">
-<p>网站使用 <a href="https://gohugo.io/">Hugo</a>，<a href="https://bookdown.org/yihui/blogdown/">blogdown</a>，<a href="https://github.com/davidhampgonsalves/hugo-black-and-light-theme">Black & Light 主题</a>创建</p>
+<p>Built with <a href="https://gohugo.io/">Hugo</a>, <a href="https://bookdown.org/yihui/blogdown/">blogdown</a>, and <a href="https://github.com/davidhampgonsalves/hugo-black-and-light-theme">Black & Light theme</a>.</p>
 </footer>
 
 

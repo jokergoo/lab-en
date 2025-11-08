@@ -5,26 +5,26 @@ title: HilbertCurve
 
 
 
-使用[希尔伯特曲线](https://en.wikipedia.org/wiki/Hilbert_curve)（Hilbert Curve）可视化基因组数据。
+Visualize genomic data using [Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve).
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/HilbertCurve/ 
 GitHub | https://github.com/jokergoo/HilbertCurve
-文档 | https://jokergoo.github.io/HilbertCurve/
-论文 | Zuguang Gu, et al., [HilbertCurve: an R/Bioconductor package for high-resolution visualization of genomic data](https://doi.org/10.1093/bioinformatics/btw161). _Bioinformatics_ 2016.
+Documentation | https://jokergoo.github.io/HilbertCurve/
+Publication | Zuguang Gu, et al., [HilbertCurve: an R/Bioconductor package for high-resolution visualization of genomic data](https://doi.org/10.1093/bioinformatics/btw161). _Bioinformatics_ 2016.
 
 
 </div>
 
-### 例子
+### Example
 
-人类染色体1上的基因分布。
+Distribution of genes on human chromosome 1.
 
 
 ``` r
@@ -37,7 +37,7 @@ hc = GenomicHilbertCurve(chr = "chr1", level = 5, reference = TRUE,
 hc_segments(hc, g, gp = gpar(lwd = 6, col = rand_color(length(g))))
 ```
 
-<img src="/software/HilbertCurve_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+<img src="/lab-en/software/HilbertCurve_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 
 <script>

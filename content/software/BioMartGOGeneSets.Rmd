@@ -15,18 +15,18 @@ knitr::opts_chunk$set(
 )
 ```
 
-[BioMart](https://www.ensembl.org/info/data/biomart/index.html) 上的 GO 与基因数据。
+Gene Ontology and gene data from [BioMart](https://www.ensembl.org/info/data/biomart/index.html).
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/BioMartGOGeneSets/ 
 GitHub | https://github.com/jokergoo/BioMartGOGeneSets
-文档 | https://jokergoo.github.io/BioMartGOGeneSets/
+Documentation | https://jokergoo.github.io/BioMartGOGeneSets/
 
 </div>
 

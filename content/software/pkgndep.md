@@ -5,25 +5,25 @@ title: pkgndep
 
 
 
-R 包依赖重量（dependency heaviness）分析。
+Dependency heaviness analysis on R packages.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 CRAN | https://cran.r-project.org/package=pkgndep
 GitHub | https://github.com/jokergoo/pkgndep
-文档 | https://jokergoo.github.io/pkgndep/
-论文 | Zuguang Gu, [On the dependency heaviness of CRAN/Bioconductor ecosystem](https://doi.org/10.1016/j.jss.2023.111610). _JSS_ 2023. <br> Zuguang Gu, et al., [Pkgndep: a tool for analyzing dependency heaviness of R packages](https://doi.org/10.1093/bioinformatics/btac449). _Bioinformatics_ 2022.
+Documentation | https://jokergoo.github.io/pkgndep/
+Publication | Zuguang Gu, [On the dependency heaviness of CRAN/Bioconductor ecosystem](https://doi.org/10.1016/j.jss.2023.111610). _JSS_ 2023. <br> Zuguang Gu, et al., [Pkgndep: a tool for analyzing dependency heaviness of R packages](https://doi.org/10.1093/bioinformatics/btac449). _Bioinformatics_ 2022.
 
 
 </div>
 
 
-### 例子
+### Example
 
 
 ``` r
@@ -33,7 +33,7 @@ x = pkgndep("circlize")
 
 ```
 ## retrieve package database from CRAN/Bioconductor (3.19)...
-##   - 26125 remote packages on CRAN/Bioconductor.
+##   - 26042 remote packages on CRAN/Bioconductor.
 ##   - 485 packages installed locally.
 ## prepare dependency table...
 ## prepare reverse dependency table...
@@ -68,7 +68,7 @@ heaviness(x)
 plot(x, fix = FALSE)
 ```
 
-<img src="/software/pkgndep_files/figure-html/unnamed-chunk-2-1.png" width="95%" />
+<img src="/lab-en/software/pkgndep_files/figure-html/unnamed-chunk-2-1.png" width="95%" />
 
 
 <script>

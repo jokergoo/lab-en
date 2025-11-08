@@ -15,21 +15,21 @@ knitr::opts_chunk$set(
 )
 ```
 
-基因集合富集分析教学与学习材料。
+Training and learning materials of gene set enrichment analysis.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
 GitHub | https://github.com/jokergoo/GSEAtopics
-文档 | https://jokergoo.github.io/GSEAtopics/
+Documentation | https://jokergoo.github.io/GSEAtopics/
 
 </div>
 
 
-### 主题
+### Topics
 
 **Topic 1**: gene set resources
 

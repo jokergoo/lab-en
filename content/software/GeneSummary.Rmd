@@ -14,22 +14,22 @@ knitr::opts_chunk$set(
 )
 ```
 
-包含了NCBI RefSeq数据库中对基因功能的文字描述。
+Description of gene functions from NCBI RefSeq database.
 
-### 基本信息
+### Basic
 
 <div id="soft-info">
 
 软件包 | 链接 
 :------ | :----------
-编程语言 | R
+Language | R
 Bioconductor | https://bioconductor.org/packages/GeneSummary/
 GitHub | https://github.com/jokergoo/GeneSummary
-文档 | https://jokergoo.github.io/GeneSummary/
+Documentation | https://jokergoo.github.io/GeneSummary/
 
 </div>
 
-### 例子
+### Example
 
 ```{r}
 library(GeneSummary)
