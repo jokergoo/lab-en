@@ -37,7 +37,7 @@ title: "Members"
 <div class="intro">
 
 - [Zuguang Gu](zuguang_gu)
-- Distinguished Professor
+- Professor
 - Institute of Cell and Gene Technology
 - Email: guzuguang@suat-sz.edu.cn
 
