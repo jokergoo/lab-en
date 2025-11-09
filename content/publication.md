@@ -6,7 +6,7 @@ title: "Publication"
 
 
 
-Updated on 2025-11-08. Papers are sorted by research directions and publication dates.  #corresponding author, \*co-first author。
+Updated on 2025-11-09. Papers are sorted by research directions and publication dates.  #corresponding author, \*co-first author。
 
 <style>
 ul {
@@ -93,4 +93,17 @@ https://doi.org/10.1186/1471-2164-12-335). _BMC Genomics_ 2011.
 - Chenfeng He, Ying-Xin Li, Guangxin Zhang, **Zuguang Gu**, Rong Yang, Jie Li, Zhi John Lu, Zhi-Hua Zhou, Chenyu Zhang, Jin Wang, [MiRmat: mature microRNA sequence prediction](https://doi.org/10.1371/journal.pone.0051673). _PloS One_ 2012.
 - **Zuguang Gu**, Chenyu Zhang, Jin Wang, [Gene regulation is governed by a core network in hepatocellular carcinoma](https://doi.org/10.1186/1752-0509-6-32). BMC systems biology 2012.
 - Lingyun Zhu, Qiang Wang, Lin Zhang, Zhixiang Fang, Fang Zhao, Zhiyuan Lv, **Zuguang Gu**, Junfeng Zhang, Jin Wang, Ke Zen, Yang Xiang, Dongjin Wang, Chen-Yu Zhang, [Hypoxia induces PGC-1α expression and mitochondrial biogenesis in the myocardium of TOF patients](https://doi.org/10.1038/cr.2010.46). _Cell Research_ 2010.
+
+
+### Citations
+
+Accumulated and daily increase.
+
+<img src="/lab-en/publication_files/figure-html/unnamed-chunk-2-1.png" width="960" />
+
+
+Global citation map.
+
+<img src="/lab-en/publication_files/figure-html/unnamed-chunk-3-1.png" width="960" />
+
 
