@@ -77,10 +77,10 @@ Nanjing University | Biochemistry and Molecular Biology |  Bachelor 	|     2001-
 ### Teaching
 
 - [Develop the official Bioconductor teaching material](https://carpentries-incubator.github.io/bioc-rnaseq/06-gene-set-analysis.html).
-- [Workshop on gene set enrichment analysis](https://www.ghga.de/events/detail/ghga-summer-school-on-gene-set-enrichment-analysis-with-r), collaborating with GHGA in June 2025.
-- Supervised two intern students (2015, 2017) and two master students (2018, 2023), Heidelberg University.
-- Lectures on the topic of clustering (for master students), Heidelberg University, 2018.
-- Teaching assistant of the Perl programming course, Heidelberg University, 2014.
+- [Workshop on gene set enrichment analysis](https://www.ghga.de/events/detail/ghga-summer-school-on-gene-set-enrichment-analysis-with-r), German Cancer Research Center, Germany, June 2025.
+- Supervized two bachelor students (2015, 2017) and two master students (2018, 2023), Heidelberg University, Germany.
+- Lectures for master students, Heidelberg University, Germany, 2018.
+- Teaching assistant, Heidelberg University, Germany, 2014.
 
 ### Grant
 

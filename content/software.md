@@ -12,7 +12,6 @@ title: "Software"
 
 Mainly using R as the programming language. Total downloads ~ <strong>9.4M</strong>. Data is from [CRAN](https://cranlogs.r-pkg.org) / [Bioconductor](https://bioconductor.org/packages/stats/index.html) / [Anaconda](https://anaconda.org/). Updated on 2025-11-09.
 
-
 <style>
 table tr td {
 	text-align: left;
