@@ -22,9 +22,6 @@ menu:
     - name: Software
       url: /software/
       weight: 4
-    - name: Post
-      url: /post
-      weight: 5
     - name: Position
       url: /opening/
       weight: 7
