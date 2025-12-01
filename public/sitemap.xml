@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4737/lab-en/</loc>
+    <loc>lab-en/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/post/</loc>
+    <loc>lab-en/post/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/2025/11/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <loc>lab-en/2025/11/06/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/2025/11/06/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <loc>lab-en/2025/11/06/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2025-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/categories/</loc>
+    <loc>lab-en/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/2020/12/01/hello-r-markdown/</loc>
+    <loc>lab-en/2020/12/01/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/tags/plot/</loc>
+    <loc>lab-en/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/categories/r/</loc>
+    <loc>lab-en/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/tags/r-markdown/</loc>
+    <loc>lab-en/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/tags/regression/</loc>
+    <loc>lab-en/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/tags/</loc>
+    <loc>lab-en/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/2016/12/30/a-plain-markdown-post/</loc>
+    <loc>lab-en/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/about/</loc>
+    <loc>lab-en/about/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/2015/01/01/lorem-ipsum/</loc>
+    <loc>lab-en/2015/01/01/lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/biocartaimage/</loc>
+    <loc>lab-en/software/biocartaimage/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/biomartgogenesets/</loc>
+    <loc>lab-en/software/biomartgogenesets/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/bsub/</loc>
+    <loc>lab-en/software/bsub/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/cepa/</loc>
+    <loc>lab-en/software/cepa/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/circlize/</loc>
+    <loc>lab-en/software/circlize/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/cola/</loc>
+    <loc>lab-en/software/cola/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/complexheatmap/</loc>
+    <loc>lab-en/software/complexheatmap/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/enrichedheatmap/</loc>
+    <loc>lab-en/software/enrichedheatmap/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/genesummary/</loc>
+    <loc>lab-en/software/genesummary/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/getoptlong/</loc>
+    <loc>lab-en/software/getoptlong/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/globaloptions/</loc>
+    <loc>lab-en/software/globaloptions/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/gseatopics/</loc>
+    <loc>lab-en/software/gseatopics/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/gtrellis/</loc>
+    <loc>lab-en/software/gtrellis/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/hilbertcurve/</loc>
+    <loc>lab-en/software/hilbertcurve/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/illuminahumanmethylationepicv2anno.20a1.hg38/</loc>
+    <loc>lab-en/software/illuminahumanmethylationepicv2anno.20a1.hg38/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/illuminahumanmethylationepicv2manifest/</loc>
+    <loc>lab-en/software/illuminahumanmethylationepicv2manifest/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/interactivecomplexheatmap/</loc>
+    <loc>lab-en/software/interactivecomplexheatmap/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/members/</loc>
+    <loc>lab-en/members/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/pkgndep/</loc>
+    <loc>lab-en/software/pkgndep/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/opening/</loc>
+    <loc>lab-en/opening/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/publication/</loc>
+    <loc>lab-en/publication/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/research/</loc>
+    <loc>lab-en/research/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/rgreat/</loc>
+    <loc>lab-en/software/rgreat/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/sfcurve/</loc>
+    <loc>lab-en/software/sfcurve/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/simona/</loc>
+    <loc>lab-en/software/simona/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/simplifyenrichment/</loc>
+    <loc>lab-en/software/simplifyenrichment/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/</loc>
+    <loc>lab-en/software/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/spiralize/</loc>
+    <loc>lab-en/software/spiralize/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/software/uniprotkeywords/</loc>
+    <loc>lab-en/software/uniprotkeywords/</loc>
   </url><url>
-    <loc>http://localhost:4737/lab-en/members/zuguang_gu/</loc>
+    <loc>lab-en/members/zuguang_gu/</loc>
   </url>
 </urlset>

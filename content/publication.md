@@ -6,7 +6,7 @@ title: "Publication"
 
 
 
-Updated on 2025-11-09. Papers are sorted by research directions and publication dates.  #corresponding author, \*co-first author。
+Updated on 2025-12-01. Papers are sorted by research directions and publication dates.  #corresponding author, \*co-first author。
 
 <style>
 ul {
@@ -100,7 +100,6 @@ https://doi.org/10.1186/1471-2164-12-335). _BMC Genomics_ 2011.
 Accumulated and daily increase.
 
 <img src="/lab-en/publication_files/figure-html/unnamed-chunk-2-1.png" width="960" />
-
 
 Global citation map.
 
