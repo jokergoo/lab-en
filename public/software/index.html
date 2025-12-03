@@ -26,7 +26,7 @@
          Software 
       
     </title>
-    <link rel="canonical" href="lab-en/software/">
+    <link rel="canonical" href="/lab-en/software/">
 
     <style>
   * {
@@ -418,7 +418,7 @@
 }
 </style>
 <script>
-window.root_dir = "lab-en\/";
+window.root_dir = "\/lab-en\/";
 const regex = /^https?:\/\/[^/]+?\//;
 root_dir = root_dir.replace(regex, "/");
 $( function() {
@@ -426,7 +426,7 @@ $( function() {
         var old_src = $(this).attr("src");
         var pattern = new RegExp("^" + root_dir);
         if(!pattern.test(old_src)) {
-            pattern = /^http(s):\/\//;
+            pattern = /^http(s?):\/\//;
             if(!pattern.test(old_src)) {
                 $(this).attr("src", root_dir + "/" + old_src);
             }
@@ -447,17 +447,17 @@ $( function() {
       <a href="#" id="nav-logo-text">Gu<span style="padding:0px 2px">.</span>Z<span id="at">@</span>SUAT-SZ</a>
       <ul style="float:right">
         
-          <li><a href="lab-en/research/">Research</a></li>
+          <li><a href="/lab-en/research/">Research</a></li>
         
-          <li><a href="lab-en/publication/">Publication</a></li>
+          <li><a href="/lab-en/publication/">Publication</a></li>
         
-          <li><a href="lab-en/software/">Software</a></li>
+          <li><a href="/lab-en/software/">Software</a></li>
         
-          <li><a href="lab-en/members/">Members</a></li>
+          <li><a href="/lab-en/members/">Members</a></li>
         
-          <li><a href="lab-en/opening/">Position</a></li>
+          <li><a href="/lab-en/opening/">Position</a></li>
         
-          <li><a href="lab-cn/">CN</a></li>
+          <li><a href="/lab-cn/">CN</a></li>
         
       </ul>
       <div style="clear:both"></div>
@@ -470,7 +470,7 @@ $( function() {
   
 
   <div class="entry-content">
-    <p>Mainly using R as the programming language. Total downloads ~ <strong>8.6M</strong>. Data is from <a href="https://cranlogs.r-pkg.org">CRAN</a> / <a href="https://bioconductor.org/packages/stats/index.html">Bioconductor</a> / <a href="https://anaconda.org/">Anaconda</a>. Updated on 2025-12-01.</p>
+    <p>Mainly using R as the programming language. Total downloads ~ <strong>9.7M</strong>. Data is from <a href="https://cranlogs.r-pkg.org">CRAN</a> / <a href="https://bioconductor.org/packages/stats/index.html">Bioconductor</a> / <a href="https://anaconda.org/">Anaconda</a>. Updated on 2025-12-03.</p>
 <style>
 table tr td {
 	text-align: left;
@@ -511,49 +511,49 @@ table tr td img {
   <tbody>
       <tr>
           <td style="text-align: left"><a href="circlize/">circlize</a>: Circular Visualization.</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/circlize/index.html"><img src="https://img.shields.io/badge/downloads-2.4M-blue" alt="CRAN"></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/circlize/index.html"><img src="https://img.shields.io/badge/downloads-2.7M-blue" alt="CRAN"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/circlize"><img src="https://img.shields.io/github/stars/jokergoo/circlize.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btu393"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="complexheatmap/">ComplexHeatmap</a>: Complex Heatmap Visualization.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/ComplexHeatmap/"><img src="https://img.shields.io/badge/downloads-1.7M-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/ComplexHeatmap/"><img src="https://img.shields.io/badge/downloads-1.8M-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/ComplexHeatmap"><img src="https://img.shields.io/github/stars/jokergoo/ComplexHeatmap.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btw313"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a><br><a href="https://doi.org/10.1002/imt2.43"><img src="https://img.shields.io/badge/published%20on-iMeta-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="interactivecomplexheatmap">InteractiveComplexHeatmap</a>: Make Interactive Complex Heatmap.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/InteractiveComplexHeatmap/"><img src="https://img.shields.io/badge/downloads-35.2K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/InteractiveComplexHeatmap/"><img src="https://img.shields.io/badge/downloads-44.9K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/InteractiveComplexHeatmap"><img src="https://img.shields.io/github/stars/jokergoo/InteractiveComplexHeatmap.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btab806"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="enrichedheatmap/">EnrichedHeatmap</a>: Enrichment of Genomic Signals on Target Region.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/EnrichedHeatmap/"><img src="https://img.shields.io/badge/downloads-85.4K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/EnrichedHeatmap/"><img src="https://img.shields.io/badge/downloads-119.3K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/EnrichedHeatmap"><img src="https://img.shields.io/github/stars/jokergoo/EnrichedHeatmap.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4625-x"><img src="https://img.shields.io/badge/published%20on-BMC%20Genomics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="hilbertcurve/">HilbertCurve</a>: Make 2D Hilbert Curve.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/HilbertCurve/"><img src="https://img.shields.io/badge/downloads-22.6K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/HilbertCurve/"><img src="https://img.shields.io/badge/downloads-46.2K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/HilbertCurve"><img src="https://img.shields.io/github/stars/jokergoo/HilbertCurve.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btw161"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="spiralize/">spiralize</a>:  Visualize Data on Spirals.</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/spiralize/index.html"><img src="https://img.shields.io/badge/downloads-23.8K-blue" alt="CRAN"></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/spiralize/index.html"><img src="https://img.shields.io/badge/downloads-52.7K-blue" alt="CRAN"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/spiralize"><img src="https://img.shields.io/github/stars/jokergoo/spiralize.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btab778"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="gtrellis/">gtrellis</a>:Genome-level Trellis Layout.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/gtrellis/"><img src="https://img.shields.io/badge/downloads-32.4K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/gtrellis/"><img src="https://img.shields.io/badge/downloads-68.3K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/gtrellis"><img src="https://img.shields.io/github/stars/jokergoo/gtrellis.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1051-4"><img src="https://img.shields.io/badge/published%20on-BMC%20Bioinformatics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="biocartaimage/">BioCartaImage</a>: BioCarta Pathway Images.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/BioCartaImage/"><img src="https://img.shields.io/badge/downloads-5.1K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/BioCartaImage/"><img src="https://img.shields.io/badge/downloads-5.2K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/BioCartaImage"><img src="https://img.shields.io/github/stars/jokergoo/BioCartaImage.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td></td>
       </tr>
@@ -580,25 +580,25 @@ table tr td img {
       </tr>
       <tr>
           <td style="text-align: left"><a href="simona/">simona</a>: Semantic Similarity in Bio-Ontologies.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/simona/"><img src="https://img.shields.io/badge/downloads-16.3K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/simona/"><img src="https://img.shields.io/badge/downloads-17.4K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/simona"><img src="https://img.shields.io/github/stars/jokergoo/simona.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-024-10759-4"><img src="https://img.shields.io/badge/published%20on-BMC%20Genomics-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="simplifyenrichment/">simplifyEnrichment</a>: Simplify Functional Enrichment Results.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/simplifyEnrichment/"><img src="https://img.shields.io/badge/downloads-60.5K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/simplifyEnrichment/"><img src="https://img.shields.io/badge/downloads-74K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/simplifyEnrichment"><img src="https://img.shields.io/github/stars/jokergoo/simplifyGO.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1016/j.gpb.2022.04.008"><img src="https://img.shields.io/badge/published%20on-GPB-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="cola/">cola</a>: A Framework for Consensus Partitioning.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/cola/"><img src="https://img.shields.io/badge/downloads-19.4K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/cola/"><img src="https://img.shields.io/badge/downloads-48.1K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/cola"><img src="https://img.shields.io/github/stars/jokergoo/cola.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/nar/gkaa1146"><img src="https://img.shields.io/badge/published%20on-NAR-9cf" alt=""></a> <a href="https://doi.org/10.1093/bib/bbac048"><img src="https://img.shields.io/badge/published%20on-BIB-9cf" alt=""></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="rgreat/">rGREAT</a>: Client of GREAT Analysis.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/rGREAT/"><img src="https://img.shields.io/badge/downloads-74.9K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/rGREAT/"><img src="https://img.shields.io/badge/downloads-118.4K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/rGREAT"><img src="https://img.shields.io/github/stars/jokergoo/rGREAT.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td style="text-align: left"><a href="https://doi.org/10.1093/bioinformatics/btac745"><img src="https://img.shields.io/badge/published%20on-Bioinformatics-9cf" alt=""></a></td>
       </tr>
@@ -624,27 +624,27 @@ table tr td img {
   <tbody>
       <tr>
           <td style="text-align: left"><a href="genesummary/">GeneSummary</a>: RefSeq Gene Summaries.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/GeneSummary/"><img src="https://img.shields.io/badge/downloads-2.9K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/GeneSummary/"><img src="https://img.shields.io/badge/downloads-9.1K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/GeneSummary"><img src="https://img.shields.io/github/stars/jokergoo/GeneSummary.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="uniprotkeywords/">UniProtKeywords</a>: Keywords from UniProt.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/UniProtKeywords/"><img src="https://img.shields.io/badge/downloads-2.5K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/UniProtKeywords/"><img src="https://img.shields.io/badge/downloads-3.5K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/UniProtKeywords"><img src="https://img.shields.io/github/stars/jokergoo/UniProtKeywords.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="biomartgogenesets/">BioMartGOGeneSets</a>: Gene Ontology Gene Sets from BioMart.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/BioMartGOGeneSets/"><img src="https://img.shields.io/badge/downloads-2.1K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/BioMartGOGeneSets/"><img src="https://img.shields.io/badge/downloads-3.1K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/BioMartGOGeneSets"><img src="https://img.shields.io/github/stars/jokergoo/BioMartGOGeneSets.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="illuminahumanmethylationepicv2anno.20a1.hg38/">IlluminaHumanMethylationEPICv2anno.20a1.hg38</a>: Epic Array v2 Annotation.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/IlluminaHumanMethylationEPICv2anno.20a1.hg38/"><img src="https://img.shields.io/badge/downloads-18.9K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/IlluminaHumanMethylationEPICv2anno.20a1.hg38/"><img src="https://img.shields.io/badge/downloads-19.1K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/IlluminaHumanMethylationEPICv2anno.20a1.hg38"><img src="https://img.shields.io/github/stars/jokergoo/IlluminaHumanMethylationEPICv2anno.20a1.hg38.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="illuminaHumanmethylationepicv2manifest/">IlluminaHumanMethylationEPICv2manifest</a>: Epic Array v2 Manifest.</td>
-          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/IlluminaHumanMethylationEPICv2manifest/"><img src="https://img.shields.io/badge/downloads-15.7K-blue" alt="Bioc"></a></td>
+          <td style="text-align: left"><a href="http://bioconductor.org/packages/stats/bioc/IlluminaHumanMethylationEPICv2manifest/"><img src="https://img.shields.io/badge/downloads-15.8K-blue" alt="Bioc"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/IlluminaHumanMethylationEPICv2manifest"><img src="https://img.shields.io/github/stars/jokergoo/IlluminaHumanMethylationEPICv2manifest.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
       </tr>
   </tbody>
@@ -676,13 +676,13 @@ table tr td img {
       </tr>
       <tr>
           <td style="text-align: left"><a href="getoptlong/">GetoptLong</a>: Command-line Argument Parser.</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/GetoptLong/index.html"><img src="https://img.shields.io/badge/downloads-2.1M-blue" alt="CRAN"></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/GetoptLong/index.html"><img src="https://img.shields.io/badge/downloads-2.3M-blue" alt="CRAN"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/GetoptLong"><img src="https://img.shields.io/github/stars/jokergoo/GetoptLong.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td></td>
       </tr>
       <tr>
           <td style="text-align: left"><a href="globaloptions/">GlobalOptions</a>: Set Global Options.</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/GlobalOptions/index.html"><img src="https://img.shields.io/badge/downloads-1.9M-blue" alt="CRAN"></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/packages/GlobalOptions/index.html"><img src="https://img.shields.io/badge/downloads-2.1M-blue" alt="CRAN"></a></td>
           <td style="text-align: left"><a href="https://github.com/jokergoo/GlobalOptions"><img src="https://img.shields.io/github/stars/jokergoo/GlobalOptions.svg?style=social&amp;label=Star" alt="GitHub stars"></a></td>
           <td></td>
       </tr>
@@ -744,7 +744,7 @@ table tr td img {
       </tr>
       <tr>
           <td style="text-align: left">GetoptLong</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_GetoptLong.html"><img src="https://img.shields.io/badge/check-NOTE-F7A845" alt=""></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_GetoptLong.html"><img src="https://img.shields.io/badge/check-OK-green" alt=""></a></td>
           <td style="text-align: left">-</td>
           <td style="text-align: left">-</td>
           <td style="text-align: left"><a href="https://GitHub.com/jokergoo/GetoptLong/issues/"><img src="https://img.shields.io/github/issues/jokergoo/GetoptLong.svg" alt="GitHub issues"></a></td>
@@ -752,7 +752,7 @@ table tr td img {
       </tr>
       <tr>
           <td style="text-align: left">GlobalOptions</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_GlobalOptions.html"><img src="https://img.shields.io/badge/check-NOTE-F7A845" alt=""></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_GlobalOptions.html"><img src="https://img.shields.io/badge/check-OK-green" alt=""></a></td>
           <td style="text-align: left">-</td>
           <td style="text-align: left">-</td>
           <td style="text-align: left"><a href="https://GitHub.com/jokergoo/GlobalOptions/issues/"><img src="https://img.shields.io/github/issues/jokergoo/GlobalOptions.svg" alt="GitHub issues"></a></td>
@@ -760,7 +760,7 @@ table tr td img {
       </tr>
       <tr>
           <td style="text-align: left">bsub</td>
-          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_bsub.html"><img src="https://img.shields.io/badge/check-NOTE-F7A845" alt=""></a></td>
+          <td style="text-align: left"><a href="https://cran.r-project.org/web/checks/check_results_bsub.html"><img src="https://img.shields.io/badge/check-OK-green" alt=""></a></td>
           <td style="text-align: left">-</td>
           <td style="text-align: left">-</td>
           <td style="text-align: left"><a href="https://GitHub.com/jokergoo/bsub/issues/"><img src="https://img.shields.io/github/issues/jokergoo/bsub.svg" alt="GitHub issues"></a></td>

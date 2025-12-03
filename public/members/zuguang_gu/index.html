@@ -26,7 +26,7 @@
          Zuguang Gu 
       
     </title>
-    <link rel="canonical" href="lab-en/members/zuguang_gu/">
+    <link rel="canonical" href="/lab-en/members/zuguang_gu/">
 
     <style>
   * {
@@ -418,7 +418,7 @@
 }
 </style>
 <script>
-window.root_dir = "lab-en\/";
+window.root_dir = "\/lab-en\/";
 const regex = /^https?:\/\/[^/]+?\//;
 root_dir = root_dir.replace(regex, "/");
 $( function() {
@@ -426,7 +426,7 @@ $( function() {
         var old_src = $(this).attr("src");
         var pattern = new RegExp("^" + root_dir);
         if(!pattern.test(old_src)) {
-            pattern = /^http(s):\/\//;
+            pattern = /^http(s?):\/\//;
             if(!pattern.test(old_src)) {
                 $(this).attr("src", root_dir + "/" + old_src);
             }
@@ -447,17 +447,17 @@ $( function() {
       <a href="#" id="nav-logo-text">Gu<span style="padding:0px 2px">.</span>Z<span id="at">@</span>SUAT-SZ</a>
       <ul style="float:right">
         
-          <li><a href="lab-en/research/">Research</a></li>
+          <li><a href="/lab-en/research/">Research</a></li>
         
-          <li><a href="lab-en/publication/">Publication</a></li>
+          <li><a href="/lab-en/publication/">Publication</a></li>
         
-          <li><a href="lab-en/software/">Software</a></li>
+          <li><a href="/lab-en/software/">Software</a></li>
         
-          <li><a href="lab-en/members/">Members</a></li>
+          <li><a href="/lab-en/members/">Members</a></li>
         
-          <li><a href="lab-en/opening/">Position</a></li>
+          <li><a href="/lab-en/opening/">Position</a></li>
         
-          <li><a href="lab-cn/">CN</a></li>
+          <li><a href="/lab-cn/">CN</a></li>
         
       </ul>
       <div style="clear:both"></div>
